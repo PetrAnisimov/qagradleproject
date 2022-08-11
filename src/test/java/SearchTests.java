@@ -5,6 +5,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SearchTests {
 
+
     @Test
     void successfulSearchTest(){
         open("http://google.com");
